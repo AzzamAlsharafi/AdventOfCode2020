@@ -2,7 +2,7 @@ import os.path
 
 nums = []
 
-with open(os.path.join("Day 1", "input.txt")) as f:
+with open(os.path.join("Day 01", "input.txt")) as f:
     for line in f:
         nums.append(int(line))
 

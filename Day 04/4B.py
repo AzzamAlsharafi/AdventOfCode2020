@@ -3,7 +3,7 @@ import re
 
 passports = []
 
-with open(os.path.join("Day 4", "input.txt")) as f:
+with open(os.path.join("Day 04", "input.txt")) as f:
     passports = f.read().split("\n\n")
 
 validCount = 0

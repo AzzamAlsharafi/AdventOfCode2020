@@ -2,7 +2,7 @@ import os.path
 
 grid = []
 
-with open(os.path.join("Day 3", "input.txt")) as f:
+with open(os.path.join("Day 03", "input.txt")) as f:
     for line in f:
        grid.append(line.replace("\n", ""))
 

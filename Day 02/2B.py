@@ -10,7 +10,7 @@ def isValid(string):
     if (password[positionA - 1] is letter) ^ (password[positionB - 1] is letter):
         return True
 
-with open(os.path.join("Day 2", "input.txt")) as f:
+with open(os.path.join("Day 02", "input.txt")) as f:
     for line in f:
         if isValid(line):
             validCounter += 1

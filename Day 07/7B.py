@@ -5,7 +5,7 @@ rules = dict()
 gold = "shiny gold"
 none = "none"
 
-with open(os.path.join("Day 7", "input.txt")) as f:
+with open(os.path.join("Day 07", "input.txt")) as f:
     for line in f:
         bag, rule = line.split(" bags contain ")
 

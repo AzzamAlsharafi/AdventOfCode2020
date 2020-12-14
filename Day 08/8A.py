@@ -3,7 +3,7 @@ import os.path
 instructions = []
 executed = []
 
-with open(os.path.join("Day 8", "input.txt")) as f:
+with open(os.path.join("Day 08", "input.txt")) as f:
     for line in f:
         instructions.append(line)
 

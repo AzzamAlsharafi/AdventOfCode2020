@@ -21,7 +21,7 @@ def calculateSeatId(seat):
     return id
     
 
-with open(os.path.join("Day 5", "input.txt")) as f:
+with open(os.path.join("Day 05", "input.txt")) as f:
     for line in f:
         ids.append(calculateSeatId(line))
 
